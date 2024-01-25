@@ -1,0 +1,28 @@
+.encabezado {
+    width: 100%;
+    height: 90px;
+    background-color: #98989A;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+    position: relative;
+  }
+  .encabezado img {
+    width: 96%;
+    height: 180px;
+    bottom: -15px;
+    position: relative;
+    opacity: 0.25;
+  }
+  .encabezado p {
+      left: 5%;
+      height: 100%;
+      font-family: Jockey One, 'Source Sans Pro';
+      font-size: 36px;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+  }
