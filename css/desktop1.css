@@ -1,5 +1,5 @@
 .inicio {
-  height: 800px;
+  height: 700px;
   width: 100%;
   position: relative;
   align-items: center;
@@ -84,10 +84,12 @@
   top: 23%;
   z-index: 2;
 }
-.inicio .content-inicio a{
+.inicio .content-inicio a {
+  text-decoration: none;
+}
+.inicio .content-inicio a p {
   font-family: Jockey One, 'Source Sans Pro';
   font-size: 15px;
-  text-decoration: none;
 }
 .inicio .content-inicio button {
   border: none;
@@ -95,6 +97,8 @@
   display: flex;
   align-items: center;
   padding: 12px 20px;
+  color: #ffffff;
+  background-color: #5e97c3;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -102,11 +106,6 @@
   background-color: #97a8f2;
   color: #6504c6;
   transform: scale(1.1);
-}
-.inicio .content-inicio .pedido {
-  color: #ffffff;
-  background-color: #5e97c3;
-  font-size: 14px;
 }
 .inicio .content-inicio img {
   height: 18px;
@@ -121,51 +120,157 @@
   font-size: 16px;
 }
 
-.top img{
-  height: 200px;
-  width: auto;
-  display: flex;
-  margin-right: 10px;
+.top .title-top {
+  position: relative;
+  margin-left: 15%;
 }
-
+.top .title-top h2 {
+  font-size: 40px;
+}
+.top .title-top p {
+  font-size: 16px;
+}
 .top .content {
-  height: 400px;
+  height: 340px;
   width: 100%;
   position: relative;
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  padding: 0px 10%;
+  justify-content: space-evenly;
+  padding: 0px 8%;
 }
-
-.top img{
-  height: 200px;
+.top .content .contenedor_btll {
+  height: 290px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top .btll img {
+  height: 170px;
   width: auto;
   display: flex;
 }
+.top .contenedor_btll .descrip {
+  width: 100%;
+}
+.top .contenedor_btll .precio {
+  font-family: Jockey One, 'Source Sans Pro';
+  font-size: 36px;
+}
+.top .contenedor_btll .text {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.top .contenedor_btll a {
+  text-decoration: none;
+  width: 100%;
+}
+.top .contenedor_btll a p {
+  font-family: Jockey One, 'Source Sans Pro';
+  font-size: 15px;
+}
+.top .contenedor_btll button {
+  border: none;
+  border-radius: 10px;
+  padding: 6px 0px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #5e97c3;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.top .contenedor_btll button:hover {
+  background-color: #97a8f2;
+  color: #6504c6;
+  transform: scale(1.05);
+}
 
-.other-service .servicio{
-  height: 400px;
+.other-service img {
+  height: 220px;
+  width: 350px;
+  display: flex;
+  margin-bottom: 18px;
+}
+.other-service .servicio {
+  height: 390px;
   width: 100%;
   position: relative;
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0px 10%;
 }
-.other-service img{
-  height: 200px;
-  width: auto;
-  display: flex;
-  margin-bottom: 35px;
+.other-service .suscripcion,
+.other-service .presentacion {
+  height: 365px;
+  width: 350px;
 }
+.other-service .servicio h2 {
+  font-size: 24px;
+  text-align: center;
+  padding: 0px 5%;
+}
+.other-service .servicio .text {
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding: 0px 5%;
+}
+.other-service .servicio a {
+  text-decoration: none;
+}
+.other-service .servicio a p {
+  font-family: Jockey One, 'Source Sans Pro';
+  font-size: 15px;
+}
+.other-service .servicio button {
+  border: none;
+  border-radius: 10px;
+  padding: 6px 16px;
+  margin-left: 5%;
+  color: #ffffff;
+  background-color: #5e97c3;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.other-service .servicio button:hover {
+  background-color: #97a8f2;
+  color: #6504c6;
+  transform: scale(1.05);
+}
+
 .other-service .otro {
-  align-items: center;
-  display: flex;
+  width: 100%;
+  height: 185px;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   padding: 0px 16%;
 }
-.other-service .otro img{
-  margin-right: 12px;
+.other-service .otro div {
+  width: 600px;
+  height: 85px;
 }
-
+.other-service .otro div h3,
+.other-service .otro div p {
+  text-align: justify;
+}
+.other-service .otro div h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.other-service .otro div p {
+  font-size: 14px;
+}
+.other-service .otro img {
+  height: auto;
+  width: 190px;
+  display: block;
+  margin: 0px;
+  margin-right: 12px;
+  position: relative;
+}
