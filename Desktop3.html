@@ -57,10 +57,45 @@
   <!-- Encabezado -->
   <div class="encabezado">
     <img src="img/encabezado.png">
-    <p>Contáctanos</p>
+    <h2>Contáctanos</h2>
   </div>
 
-  
+
+  <div class="container">
+    <p>Contactanos sobre cualquier cosa relacionada con nuestra empresa o servicios. Haremos todo lo posible para
+      llamarte lo antes posible</p>
+      <br>
+    <form>
+      <fieldset>
+        <div class="borde">
+          <label for="cedula">Nombre Completo:</label>
+          <input type="text" id="cedula" placeholder="..." required>
+        </div>
+
+        <div class="borde">
+          <label for="telf">Teléfono:</label>
+          <input type="telf" id="telf" placeholder="..." required>
+        </div>
+
+        <div class="borde">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" placeholder="..." required>
+        </div>
+
+        <div class="borde">
+          <label for="tema">Tema:</label>
+          <input type="text" id="tema" placeholder="..." required>
+        </div>
+      </fieldset>
+
+      <div class="borde">
+        <label for="msg">Solicitud:</label>
+        <textarea id="msg" rows="4" required></textarea>
+      </div>
+      <input type="submit" class="btn_send" value="Enviar">
+    </form>
+  </div>
+
   <!-- footer -->
   <footer>
     <div class="footer">
