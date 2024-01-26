@@ -59,11 +59,11 @@ header {
 .navbar .nav-links button:hover {
   background-color: #97a8f2;
   color: #6504c6;
-  transform: scale(1.1); 
+  transform: scale(1.05); 
 }
 .navbar .nav-links .home {
   color: #ffffff;
-  background-color: rgb(56, 53, 53);
+  background-color: #383535;
   font-size: 15px;
 }
 .navbar .nav-links .login {
