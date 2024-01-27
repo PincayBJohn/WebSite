@@ -26,3 +26,31 @@
   justify-content: center;
   position: absolute;
 }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 105vh;
+  width: 98%;
+  padding: 10px 30px;
+  margin: auto;
+}
+.container p,
+.container h3{
+    width: 100%;
+    text-align: justify;
+}
+.container p{
+  font-size: 15px;
+}
+.container h3{
+  font-size: 21px;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+.container .No_reembolso{
+  font-size: 35px;
+  margin: 0;
+  font-weight: bold;
+}

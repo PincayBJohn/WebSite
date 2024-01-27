@@ -15,7 +15,7 @@
   position: relative;
   opacity: 0.25;
 }
-.encabezado p {
+.encabezado h2 {
   left: 5%;
   height: 100%;
   font-family: Jockey One, 'Source Sans Pro';
