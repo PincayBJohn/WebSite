@@ -1,5 +1,5 @@
 .inicio {
-  height: 95vh;
+  height: 92vh;
   width: 100%;
   position: relative;
   align-items: center;
@@ -22,14 +22,14 @@
   height: auto;
   position: absolute;
   right: 72px;
-  top: 500px;
+  top: 515px;
 }
 .inicio .background-principal .r2-band {
   width: 480px;
   height: auto;
   position: absolute;
   right: 8px;
-  top: 530px;
+  top: 545px;
   opacity: 0.9;
 }
 .inicio .background-principal .r3-band {
@@ -37,21 +37,21 @@
   height: auto;
   position: absolute;
   right: 0px;
-  top: 565px;
+  top: 580px;
 }
 .inicio .background-principal .band-l2 {
   width: 280px;
   height: auto;
   left: 0px;
   position: absolute;
-  top: 534px;
+  top: 557px;
 }
 .inicio .background-principal .band-l1 {
   width: 395px;
   height: auto;
   position: absolute;
   left: 0;
-  top: 475px;
+  top: 497px;
 }
 .inicio .background-principal .slpc-1 {
   border: none;
