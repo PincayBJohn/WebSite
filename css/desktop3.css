@@ -65,7 +65,8 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-    background-color: #eafbfd;
+  background-color: #eafbfd;
+  border: 2px solid #256291; 
 }
 
 form .borde{
