@@ -11,9 +11,8 @@ body {
 }
 header {
   position: relative;
-  height: 75px;
+  height: 80px;
 }
-
 .navbar nav {
   background-color: rgba(29, 181, 190, 0.8);
   height: 64px;

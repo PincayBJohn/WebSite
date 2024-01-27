@@ -1,55 +1,57 @@
 .inicio {
-  height: 700px;
+  height: 95vh;
   width: 100%;
   position: relative;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 .inicio .background-principal {
   position: relative;
   z-index: 1;
 }
 .inicio .background-principal .circle {
-  width: 330px;
-  height: 300px;
+  width: 320px;
+  height: 290px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0px;
+  top: -10px;
 }
 .inicio .background-principal .r1-band {
   width: 295px;
   height: auto;
   position: absolute;
-  right: 75px;
+  right: 72px;
   top: 500px;
 }
 .inicio .background-principal .r2-band {
   width: 480px;
   height: auto;
   position: absolute;
-  right: 0px;
-  top: 533px;
+  right: 8px;
+  top: 530px;
+  opacity: 0.9;
 }
 .inicio .background-principal .r3-band {
   width: 140px;
   height: auto;
   position: absolute;
   right: 0px;
-  top: 580px;
+  top: 565px;
 }
 .inicio .background-principal .band-l2 {
-  width: 290px;
+  width: 280px;
   height: auto;
   left: 0px;
   position: absolute;
-  top: 584px;
+  top: 534px;
 }
 .inicio .background-principal .band-l1 {
-  width: 394px;
+  width: 395px;
   height: auto;
   position: absolute;
   left: 0;
-  top: 520px;
+  top: 475px;
 }
 .inicio .background-principal .slpc-1 {
   border: none;
@@ -119,7 +121,23 @@
 .inicio .content-inicio p {
   font-size: 16px;
 }
-
+.publicidad{
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.publicidad h3 {
+  font-size: 40px;
+  width: 72%;
+  margin-bottom: 20px;
+}
+.top{
+  margin-top: 15px;
+}
 .top .title-top {
   position: relative;
   margin-left: 15%;
